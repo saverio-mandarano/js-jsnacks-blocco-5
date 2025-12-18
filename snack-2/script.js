@@ -21,3 +21,10 @@ for (const person of people){
     }
   } 
 }
+
+//Versione-3
+people.forEach( (person) => {
+  if (person.name){
+    console.log("versione-3 ", person.name);
+  }
+})
