@@ -23,4 +23,10 @@ const students = [
 // Risultato: '3C'
 
 const marcoLanci = students.find( (student) => student.name === `Marco Lanci`);
-console.log(marcoLanci.class);
+
+if (marcoLanci){
+  console.log(marcoLanci.class);
+}
+else{
+  console.log( `Marco Lanci non trovato in students.`);
+}
