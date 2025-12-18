@@ -9,3 +9,7 @@ for (let i=0; i<numbers.length; i++){
     numbersPlusOne.push(numbers[i] + 1);
 }
  console.log(numbersPlusOne);
+ 
+ // Versione con map()
+ const numbersPlusTwo = numbers.map( (number) => number + 2);
+ console.log(numbersPlusTwo);
